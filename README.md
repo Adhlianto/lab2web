@@ -23,3 +23,16 @@ Maka hasilnya seperti di bawah :
   ![image](https://user-images.githubusercontent.com/56548203/113611056-2ec77e80-9678-11eb-9e19-be750b1e4ea7.png)
 Maka hasilnya seperti dibawah :
 ![image](https://user-images.githubusercontent.com/56548203/113611208-69311b80-9678-11eb-9795-7b6ee9fb850a.png)
+
+# Pertanyaan dan tugas
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang di berikan pada file terpisah dari modul ini.
+Untuk mengubah warna background dengan cara menambahkan codingan .block {background-color: transparent;}.
+2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+Deklarasi h1 {...} dapat merubah semua elemen “h1”, sedangkan #intro h1{.....} lebih spesifik, h1 akan mendapatkan atribut dengan id “intro”.
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+Yang akan di tampilkan pada browser adalah eksternal CSS karena untuk menambahkan CSS ke website adalah dengan menghubungkannya ke file CSS eksternal. Dengan cara tersebut, perubahan apapun yang di buat pada file CSS akan tampil pada website secara keseluruhan. 
+![web2 bgn 8](https://user-images.githubusercontent.com/81984937/113620113-14939d80-9684-11eb-8afc-624221c0edfb.PNG)
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+Yang akan di tampilkan paada browser adalah selektor ID. Selektor ID hampir sama dengan class. Bedanya, ID bersifat unik. Hanya boleh digunakan oleh satu elemen saja.
+![web2 bgn9](https://user-images.githubusercontent.com/81984937/113622283-faa78a00-9686-11eb-970e-373aeda21a11.PNG)
+![web2 bgn 10](https://user-images.githubusercontent.com/81984937/113622289-fd09e400-9686-11eb-82f8-2a04cedf0601.PNG)
